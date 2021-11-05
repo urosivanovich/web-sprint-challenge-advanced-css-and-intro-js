@@ -234,7 +234,7 @@ function getArtistByIndex(array, number) {
 
 }
 
-console.log(getArtistByIndex(artists,[0]));
+console.log(getArtistByIndex(artists, 0));
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 4: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 
 Use get20s to do the following: 
@@ -267,18 +267,16 @@ Use removeArtist to do the following:
 
 For example, if removeArtist is invoked with the artists array and the number 0, it will remove Amedeo Modigliani from our dataset and return the number 19. */
 
-function removeArtist(array, num) {
-  for (let i = 0; i > array.length; i++) {
-
-  if (array[i] >= 0) {
-     array.splice(num, 1)
-    }
+function removeArtist(array, number) {
+  for (let i = 0; i < array.length; i++){
+    if(array[i] === number) {
+      array.splice(i, 1)
+    }  
   }
-  
   return array.length;
 }
 
-console.log(removeArtist(artists[0]));
+console.log(removeArtist(artists, 0));
 
 
 

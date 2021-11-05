@@ -31,7 +31,7 @@ Please answer the following questions below, you may edit the readme file to inc
 4. What is the purpose of using functions in code?
     The purpose of function is to store the line of code and reuse it whenever we need to.
 5. How do you access a key inside of an object inside of an array?
-    
+    arrayName[object].key
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade. 
 
 ## Instructions
